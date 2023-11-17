@@ -4,24 +4,41 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
         <title>ResulBank</title>
     </head>
     <body>
         <!-- HEADER  SECTION -->
         <header>
-                <img id="logo" src="./img/logo.png" alt="Resul Bank Logo">
+                <img id="logo" src="./img/logo_black.png" alt="Resul Bank Logo">
                 <div class="menu">
-                    <span>Test</span>
-                    <span>Test</span>
-                    <span>Test</span>
+                    <div class="menu-item"><a href="#">Savings</a></div>
+                    <div class="menu-item"><a href="#">Credit Cards</a></div>
+                    <div class="menu-item"><a href="#">Home Loans</a></div>
+                    <div class="menu-item"><a href="#">Auto Loans</a></div>
+                    <div class="menu-item"><a href="#">Investings</a></div>   
                 </div>
                 
         </header>
 
         <!-- MAIN SECTION -->
         <section>
-            <div class="sidebar">
-                <!-- Left Sidebar Content -->
+            <!-- Left Sidebar Content -->
+            <div class="sidebar flex-column">
+                <div class="flex-item sidebar-box">
+                    <img id="persona" src="./img/persona.png" alt="Profile photo">
+                    <p id="persona-text">John Doe</p>
+                    <p id="persona-substation">Mugla, Mentese</p>
+                </div>
+                <div class="flex-item">
+                    <div class="vertical-center-flex">
+                        <img id="balance-logo" src="./img/wallet.png" alt="Wallet">
+                        <div id="balance-text">Wallet</div>
+                    </div>
+                    
+                    <div class="flex-item" id="balance">$23.002</div>
+                </div>
+                <div class="flex-item transfers">Box 1</div>
             </div>
         
             <div class="content">
@@ -38,7 +55,7 @@
 
         <!-- FOOTER SECTION -->
         <footer>
-            <div class="flex-container">
+            <div class="flex-row">
                 <div class="box flex-item">Box 1</div>
                 <div class="box flex-item">Box 1</div>
                 <div class="box flex-item">Box 1</div>
