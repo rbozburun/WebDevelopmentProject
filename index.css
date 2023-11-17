@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between; /* justify-content: space-between; to the header styles to push the logo to the left and the menu to the right. */
+    color: #fff;
+    padding: 10px;
+}
+
+header img {
+    max-width: 30%;
+    margin-right: 0px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 20%; /* Adjust the width of the sidebars as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.content {
+    flex: 1; /* Take up the remaining space in the middle */
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.box {
+    width: 30%;
+    margin: 0 10px; /* Adjust the margin as needed */
+    background-color: #555;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in box size */
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1; /* This property determines how a flex item grows or shrinks to fill the available space. */
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
