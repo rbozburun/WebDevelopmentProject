@@ -50,14 +50,16 @@ section {
 }
 
 .content {
+    display:flex;
     flex: 1; /* Take up the remaining space in the middle */
     border: 1px solid #ccc;
     margin: 10px;
+    flex-direction: column;
 }
 
 
 footer {
-    background-color: #333;
+    background-color: rgba(59, 59, 59, 0.929);
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -73,7 +75,6 @@ footer {
 .box {
     width: 30%;
     margin: 0 10px; /* Adjust the margin as needed */
-    background-color: #555;
     padding: 10px;
     box-sizing: border-box; /* Include padding and border in box size */
 }
@@ -88,10 +89,11 @@ footer {
     align-items: center;
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
     margin: 5px;
+    border-radius: 5%;
+    background-color: white
+    
 }
-
 #persona {
     width: 45%;
 }
@@ -114,10 +116,10 @@ footer {
 #balance-logo{
     width: 40%;
 }
-#balance-text{
+.sidebar-box-text{
     font-size: 35px;
     display:inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #balance{
@@ -125,8 +127,58 @@ footer {
     font-size: 30px;
 }
 
+/* Align vertically center of contents of flexbox  */ 
 .vertical-center-flex{
     display:flex;
     align-items: center; /* Vertically center the items */
     justify-content: center; /* Horizontally center the items */
+    margin-top:20px;
+}
+
+/* Customize Welcome message */
+#welcome {
+    text-align: center;
+}
+
+/* Customize transaction links */
+#transactions a{
+    text-decoration: none;
+}
+#transactions a:hover{
+    text-decoration: underline;
+}
+
+
+.negative-transaction{
+    color: red;
+}
+
+.positive-transaction{
+    color: green;
+}
+/* Customize currency sidebar */
+.currency-logo{
+    width: 20%;
+    margin-right: 10px;
+}
+
+.currency-price{
+    font-size: 35px;
+    display:inline-block;
+    margin-top: 10px;
+}
+
+/* Remove dots begining of list items in footer */
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color:white;
+    font-size:14pt;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
 }

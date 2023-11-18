@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./index.css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
         <title>ResulBank</title>
     </head>
     <body>
@@ -25,29 +24,77 @@
         <section>
             <!-- Left Sidebar Content -->
             <div class="sidebar flex-column">
+
+                <!-- Persona Box  -->
                 <div class="flex-item sidebar-box">
                     <img id="persona" src="./img/persona.png" alt="Profile photo">
                     <p id="persona-text">John Doe</p>
                     <p id="persona-substation">Mugla, Mentese</p>
                 </div>
+
+                <!-- Wallet Box  -->
                 <div class="flex-item">
                     <div class="vertical-center-flex">
                         <img id="balance-logo" src="./img/wallet.png" alt="Wallet">
-                        <div id="balance-text">Wallet</div>
+                        <div class="sidebar-box-text">Wallet</div>
                     </div>
-                    
-                    <div class="flex-item" id="balance">$23.002</div>
+                    <div class="flex-item" id="balance">$25.752</div>
                 </div>
-                <div class="flex-item transfers">Box 1</div>
+
+                <!-- Transaction History Box  -->
+                <div class="flex-item" id="transactions">
+                    <ul>
+                        <li><a class="negative-transaction" href="#">-215$ - Amazon.com</a></li>
+                        <li><a class="negative-transaction" href="#">-2100$ - TR12456789</a> </li>
+                        <li><a class="positive-transaction" href="#">+6000$ - YourCompany</a></li>
+                        <li><a class="positive-transaction" href="#">+100$ - TR22456788</a></li>
+                        <li><a class="negative-transaction" href="#">-50$ - YourPhone</a></li>
+                    </ul>
+                </div>
             </div>
         
+            <!-- Middle Content -->
             <div class="content">
-                <!-- Middle Content -->
-               
+                <div id="welcome"><h1>Welcome to RBank John Doe!</h1></div>
+                <div class="flex-item content-box">test</div>
+                <div class="flex-item content-box">test</div>
+                <div class="flex-item content-box">test</div>
+                <div class="flex-item content-box">test</div>
+                <div class="flex-item content-box">test</div>
             </div>
         
-            <div class="sidebar">
-                <!-- Right Sidebar Content -->
+            <!-- Right Sidebar Content -->
+            <div class="sidebar flex-column">
+                <div class="flex-item">
+                    <div class="vertical-center-flex">
+                        <img class="currency-logo" src="./img/currency/euro.png" alt="Euro">
+                        <div class="sidebar-box-text">1.2$</div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="vertical-center-flex">
+                        <img class="currency-logo" src="./img/currency/tl.png" alt="TL">
+                        <div class="sidebar-box-text">28$</div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="vertical-center-flex">
+                        <img class="currency-logo" src="./img/currency/gold.png" alt="Gold">
+                        <div class="sidebar-box-text">33$</div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="vertical-center-flex">
+                        <img class="currency-logo" src="./img/currency/silver.png" alt="Silver">
+                        <div class="sidebar-box-text">25$</div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="vertical-center-flex">
+                        <img class="currency-logo" src="./img/currency/petrol.png" alt="Petrol">
+                        <div class="sidebar-box-text">3$</div>
+                    </div>
+                </div>
                 
             </div>
         
@@ -56,9 +103,45 @@
         <!-- FOOTER SECTION -->
         <footer>
             <div class="flex-row">
-                <div class="box flex-item">Box 1</div>
-                <div class="box flex-item">Box 1</div>
-                <div class="box flex-item">Box 1</div>
+                <!-- You may want to check -->
+                <div class="box">
+                    <h2>You may want to check</h2>
+                    <ul>
+                        <li><a href="#">How to save your money?</a></li>
+                        <li><a href="#">Best way of making money </a></li>
+                        <li><a href="#">Learn best investment techniques</a></li>
+                    </ul>
+                </div>
+
+                <!--Helpful resource links -->
+                <div class="box">
+                    <h2>Helpful resources</h2>
+                    <ul>
+                        <li><a href="#">How to save your money?</a></li>
+                        <li><a href="#">Best way of making money </a></li>
+                        <li><a href="#">Learn best investment techniques</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact box -->
+                <div class="box">
+                    <h2>Contact</h2>
+                    <p>RBank X
+                        711-2880 Nulla St.
+                        Mankato Mississippi 96522
+                        (257) 563-7401</p>
+
+                    <p>RBank Y
+                            Ap #247-5577 Tincidunt St.
+                            Corpus Christi WI 97020
+                        (873) 392-8802</p>
+
+                    <p>RBank Z
+                        Ap #761-2515 Egestas. Rd.
+                        Manitowoc TN 07528</p>
+    
+
+                </div>
             </div>
             
         </footer>
