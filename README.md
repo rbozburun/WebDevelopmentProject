@@ -9,7 +9,7 @@ In this project, just HTML and CSS used. You can see the project layout in the f
 
 The project looks like as follows:
 ![RBank](./img/RBank.png)
-![Responsive](./img/responsive.png)
+![Responsive](./img/phone.png)
 
 
 The CSS is **default for Mobile layout**.  To adjust larger screen sizes, the `media`. If the device width is minimum 750px, browser overrides some necessary elements such as header, sidebars etc.
