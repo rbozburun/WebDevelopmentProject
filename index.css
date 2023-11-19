@@ -108,7 +108,7 @@ section {
 
 .flex-item {
     align-items: center;
-    padding: 10px;
+    padding-top: 5px;
     margin: 5px;
     border-radius: 5%;
     background-color: white
@@ -157,7 +157,7 @@ section {
     display:flex;
     align-items: center; /* Vertically center the items */
     justify-content: center; /* Horizontally center the items */
-    padding:10%;
+    padding:7%;
     
 }
 
